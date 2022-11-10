@@ -1,0 +1,51 @@
+.form-wrapper {
+  border: 3px solid currentColor;
+  padding: 1rem;
+  text-align: center;
+  min-width: 400px;
+}
+
+.user-details-form {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.form-text-input {
+  outline: none;
+  padding: 0.5rem 1rem;
+  font-size: inherit;
+  color: inherit;
+}
+
+.form-text-input:focus {
+  border: 2px solid #444444;
+}
+
+.form-submit-button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid #444444;
+  color: #444444;
+  font-size: inherit;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.users-table {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.users-table th,
+.users-table td {
+  text-align: left;
+  padding: 0.25rem 1rem;
+}
+
+.heading {
+  font-size: 1.5rem;
+  text-align: left;
+}
